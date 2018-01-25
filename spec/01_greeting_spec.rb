@@ -2,7 +2,7 @@ require_relative "../lib/greeting.rb"
 
 puts describe './lib/greeting.rb' do
   it 'defines a greeting method' do
-    expect(defined?(greeting).to be_truthy
+    expect(defined?(greeting)).to be_truthy
   end
 
   puts context '#greeting' do
