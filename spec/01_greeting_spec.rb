@@ -8,7 +8,7 @@ puts describe './lib/greeting.rb' do
   puts context '#greeting' do
     it 'takes in an argument of a persons name' do
       allow($stdout).to receive(:puts)
-      
+
       expect{greeting("Bobby")}.to_not raise_error
     end
 
